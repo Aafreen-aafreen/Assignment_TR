@@ -1,4 +1,5 @@
 package Pages;
 
-public class Footer {
+public class Footer
+{
 }
