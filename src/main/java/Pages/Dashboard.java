@@ -1,6 +1,7 @@
 package Pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -22,6 +23,7 @@ public class Dashboard {
     private By search_button = By.xpath("//*[text()='SEARCH'])[2])");
     private By search_box= By.xpath("(//input[@placeholder='Enter car name...'])[2]");
     private By footer_links = By.xpath("//footer//a");
+    private By ViewAll = By.xpath("//a[@class='link-viewall']");
 
     // 2. Constructor of the page class:
     public  Dashboard(WebDriver driver)
@@ -78,13 +80,18 @@ return c;
         driver.findElement(my_profile).click();
     }
     public void click_search_car() throws InterruptedException {
-        WebDriverWait wait = new WebDriverWait(driver,60);
+        WebDriverWait wait = new WebDriverWait(driver,20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(search_button));
         driver.findElement(search_button).click();
         Thread.sleep(3000);
 
     }
-
+    public void click_ViewAll() throws InterruptedException {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,600)");
+        Thread.sleep(3000);
+        driver.findElement(ViewAll).click();
+    }
 
 
     }

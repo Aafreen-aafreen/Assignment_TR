@@ -1,47 +1,47 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "4362517d-57a0-48dc-a71f-b80ad4112b5d",
+    "id": "dcd9e159-aa4e-4d8b-837d-afebe958dceb",
     "feature": "Validate Dashboard Details",
-    "scenario": "Validate MY Profile Details",
-    "start": 1648646622810,
-    "group": 14,
-    "content": "",
-    "tags": "",
-    "end": 1648646637230,
-    "className": "passed"
-  },
-  {
-    "id": "a90f520a-6db6-4654-9a41-8a567eb5395c",
-    "feature": "Validate Dashboard Details",
-    "scenario": "Validate MY Profile Details",
-    "start": 1648646622766,
+    "scenario": "Validate Cars Listing Page",
+    "start": 1648649974275,
     "group": 13,
     "content": "",
     "tags": "",
-    "end": 1648646637230,
+    "end": 1648649991900,
     "className": "passed"
   },
   {
-    "id": "01c9502b-a769-4405-ad5a-d3a5b9c8d5d1",
+    "id": "e2b86cb6-9dfc-48c5-af91-331ed9c45524",
     "feature": "Validate Dashboard Details",
     "scenario": "Validate Search functionality",
-    "start": 1648646622764,
+    "start": 1648649974324,
     "group": 15,
     "content": "",
     "tags": "",
-    "end": 1648646646851,
+    "end": 1648650011185,
     "className": "passed"
   },
   {
-    "id": "9eb2c794-8a6a-4089-8468-0cff8bfa69b8",
+    "id": "16e8e2c7-8bba-4713-8d07-50ad76853d03",
+    "feature": "Validate Dashboard Details",
+    "scenario": "Validate MY Profile Details",
+    "start": 1648649974274,
+    "group": 14,
+    "content": "",
+    "tags": "",
+    "end": 1648649988887,
+    "className": "passed"
+  },
+  {
+    "id": "1a5959c1-b2f3-4a95-a383-d58a90caf9f0",
     "feature": "Validate Dashboard Details",
     "scenario": "Validate links in the Footer",
-    "start": 1648646622765,
+    "start": 1648649974324,
     "group": 16,
     "content": "",
     "tags": "",
-    "end": 1648646638111,
+    "end": 1648649989698,
     "className": "passed"
   }
 ]);

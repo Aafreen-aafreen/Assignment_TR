@@ -1,5 +1,6 @@
 package Stepdefinition;
 
+import Pages.CarList;
 import Pages.Dashboard;
 import Utilities.DriverFactory;
 import io.cucumber.java.en.And;
@@ -15,6 +16,7 @@ public class dashboard_page {
     static final Logger logger = LogManager.getLogger("dashboard_page");
     String log_file_name = "/Users/firdi/Library/CloudStorage/OneDrive-Deloitte(O365D)/TR_Training/src/log_config.xml";
     private Dashboard d = new Dashboard(DriverFactory.getDriver());
+    private CarList c = new CarList(DriverFactory.getDriver());
 
     @Given("launching application & validate the title of the page")
     public void validateTheTitleOfThePage() {
@@ -83,4 +85,24 @@ public class dashboard_page {
             logger.info("Testcase Validate Footer link  is failed");
             logger.error(e);
         }
-}}
+}
+
+    @And("validate if all cars are listed on car listing page")
+    public void validateIfAllCarsAreListedOnCarListingPage() {
+        try{
+       boolean res = c.is_Allcars_present();
+       assert res;
+       logger.info("Testcase Validate Car listing is pass");
+        }
+        catch(Exception e)
+        {
+            logger.info("Testcase Validate Car listing  is failed");
+            logger.error(e);
+    }}
+
+    @Then("click on view all cars button on dashboard")
+    public void clickOnViewAllCarsButtonOnDashboard() throws InterruptedException {
+        logger.info("Navigating to car listing page");
+        d.click_ViewAll();
+    }
+}
