@@ -1,214 +1,58 @@
-2022-03-31 18:30:50  [DriverFactory] (main:) Setting browser value
-2022-03-31 18:30:50  [ApplicationHooks] (main:) Launching browser
-2022-03-31 18:30:51  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 18:30:54  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 18:30:58  [ApplicationHooks] (main:) closing the browser
-2022-03-31 18:36:25  [DriverFactory] (main:) Setting browser value
-2022-03-31 18:36:26  [ApplicationHooks] (main:) Launching browser
-2022-03-31 18:36:26  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 18:36:29  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 18:36:33  [ApplicationHooks] (main:) closing the browser
-2022-03-31 18:39:49  [DriverFactory] (main:) Setting browser value
-2022-03-31 18:39:49  [ApplicationHooks] (main:) Launching browser
-2022-03-31 18:39:50  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 18:39:53  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 18:39:57  [ApplicationHooks] (main:) closing the browser
-2022-03-31 18:42:08  [DriverFactory] (main:) Setting browser value
-2022-03-31 18:42:08  [ApplicationHooks] (main:) Launching browser
-2022-03-31 18:42:09  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 18:42:12  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 18:42:15  [ApplicationHooks] (main:) closing the browser
-2022-03-31 18:43:17  [DriverFactory] (main:) Setting browser value
-2022-03-31 18:43:18  [ApplicationHooks] (main:) Launching browser
-2022-03-31 18:43:18  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 18:43:21  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 18:43:25  [ApplicationHooks] (main:) closing the browser
-2022-03-31 18:44:32  [DriverFactory] (main:) Setting browser value
-2022-03-31 18:44:32  [ApplicationHooks] (main:) Launching browser
-2022-03-31 18:44:32  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 18:44:35  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 18:44:39  [ApplicationHooks] (main:) closing the browser
-2022-03-31 18:46:14  [DriverFactory] (main:) Setting browser value
-2022-03-31 18:46:14  [ApplicationHooks] (main:) Launching browser
-2022-03-31 18:46:15  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 18:46:18  [dashboard_page] (main:) Successfully landed on the application
-2022-03-31 18:46:18  [dashboard_page] (main:) My Profile link exists on the dashboard
-2022-03-31 18:46:18  [dashboard_page] (main:) My Profile link is enabled on the dashboard
-2022-03-31 18:46:18  [dashboard_page] (main:) Testcase Validate_My_Profile passed
-2022-03-31 18:46:21  [ApplicationHooks] (main:) closing the browser
-2022-03-31 19:49:21  [DriverFactory] (main:) Setting browser value
-2022-03-31 19:49:21  [ApplicationHooks] (main:) Launching browser
-2022-03-31 19:49:22  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 19:49:25  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 19:49:29  [ApplicationHooks] (main:) closing the browser
-2022-03-31 19:50:25  [DriverFactory] (main:) Setting browser value
-2022-03-31 19:50:25  [ApplicationHooks] (main:) Launching browser
-2022-03-31 19:50:26  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 19:50:29  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 19:50:32  [ApplicationHooks] (main:) closing the browser
-2022-03-31 19:52:07  [DriverFactory] (main:) Setting browser value
-2022-03-31 19:52:07  [ApplicationHooks] (main:) Launching browser
-2022-03-31 19:52:08  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 19:52:11  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 19:52:15  [ApplicationHooks] (main:) closing the browser
-2022-03-31 19:53:51  [DriverFactory] (main:) Setting browser value
-2022-03-31 19:53:52  [ApplicationHooks] (main:) Launching browser
-2022-03-31 19:53:53  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 19:53:56  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 19:54:00  [ApplicationHooks] (main:) closing the browser
-2022-03-31 19:54:39  [DriverFactory] (main:) Setting browser value
-2022-03-31 19:54:40  [ApplicationHooks] (main:) Launching browser
-2022-03-31 19:54:41  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 19:54:44  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 19:54:49  [ApplicationHooks] (main:) closing the browser
-2022-03-31 19:56:44  [DriverFactory] (main:) Setting browser value
-2022-03-31 19:56:44  [ApplicationHooks] (main:) Launching browser
-2022-03-31 19:56:45  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 19:56:48  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 19:56:53  [ApplicationHooks] (main:) closing the browser
-2022-03-31 19:59:11  [DriverFactory] (main:) Setting browser value
-2022-03-31 19:59:11  [ApplicationHooks] (main:) Launching browser
-2022-03-31 19:59:12  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 19:59:15  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 19:59:20  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:01:05  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:01:06  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:01:07  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:01:10  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:01:15  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:02:23  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:02:23  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:02:24  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:02:27  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:02:32  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:03:55  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:03:55  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:03:56  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:03:59  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:04:03  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:06:14  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:06:15  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:06:16  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:06:19  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:06:23  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:08:23  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:08:23  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:08:24  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:08:28  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:08:32  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:10:04  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:10:04  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:10:05  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:10:08  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:10:12  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:11:30  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:11:30  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:11:31  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:11:34  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:11:39  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:13:29  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:13:29  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:13:30  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:13:33  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:13:37  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:16:37  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:16:37  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:16:38  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:16:41  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:16:46  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:18:08  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:18:08  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:18:09  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:18:12  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:18:16  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:18:43  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:18:43  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:18:44  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:18:47  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:18:52  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:22:05  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:22:05  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:22:06  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:22:09  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:22:13  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:25:19  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:25:19  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:25:20  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:25:23  [ApplicationHooks] (main:) ScreenValidate_MY_Profile_Details
-2022-03-31 20:25:28  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:26:56  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:26:56  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:26:57  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:27:00  [dashboard_page] (main:) Successfully landed on the application
-2022-03-31 20:27:00  [dashboard_page] (main:) My Profile link exists on the dashboard
-2022-03-31 20:27:00  [dashboard_page] (main:) My Profile link is enabled on the dashboard
-2022-03-31 20:27:00  [dashboard_page] (main:) Testcase Validate_My_Profile passed
-2022-03-31 20:27:03  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:27:48  [DriverFactory] (TestNG-PoolService-3:) Setting browser value
-2022-03-31 20:27:48  [DriverFactory] (TestNG-PoolService-1:) Setting browser value
-2022-03-31 20:27:48  [DriverFactory] (TestNG-PoolService-2:) Setting browser value
-2022-03-31 20:27:48  [ApplicationHooks] (TestNG-PoolService-1:) Launching browser
-2022-03-31 20:27:49  [ApplicationHooks] (TestNG-PoolService-3:) Launching browser
-2022-03-31 20:27:49  [ApplicationHooks] (TestNG-PoolService-2:) Launching browser
-2022-03-31 20:27:49  [DriverFactory] (TestNG-PoolService-4:) Setting browser value
-2022-03-31 20:27:49  [DriverFactory] (TestNG-PoolService-0:) Setting browser value
-2022-03-31 20:27:49  [ApplicationHooks] (TestNG-PoolService-0:) Launching browser
-2022-03-31 20:27:49  [ApplicationHooks] (TestNG-PoolService-4:) Launching browser
-2022-03-31 20:27:53  [ApplicationHooks] (TestNG-PoolService-1:) Entering the url.....
-2022-03-31 20:27:53  [ApplicationHooks] (TestNG-PoolService-0:) Entering the url.....
-2022-03-31 20:27:53  [ApplicationHooks] (TestNG-PoolService-3:) Entering the url.....
-2022-03-31 20:27:53  [ApplicationHooks] (TestNG-PoolService-2:) Entering the url.....
-2022-03-31 20:27:53  [ApplicationHooks] (TestNG-PoolService-4:) Entering the url.....
-2022-03-31 20:27:56  [dashboard_page] (TestNG-PoolService-1:) Successfully landed on the application
-2022-03-31 20:27:56  [dashboard_page] (TestNG-PoolService-0:) Successfully landed on the application
-2022-03-31 20:27:56  [dashboard_page] (TestNG-PoolService-1:) My Profile link exists on the dashboard
-2022-03-31 20:27:56  [dashboard_page] (TestNG-PoolService-0:) Navigating to car listing page
-2022-03-31 20:27:56  [dashboard_page] (TestNG-PoolService-3:) Successfully landed on the application
-2022-03-31 20:27:56  [dashboard_page] (TestNG-PoolService-1:) My Profile link is enabled on the dashboard
-2022-03-31 20:27:56  [dashboard_page] (TestNG-PoolService-1:) Testcase Validate_My_Profile passed
-2022-03-31 20:27:56  [dashboard_page] (TestNG-PoolService-3:) Successfully landed on the application
-2022-03-31 20:27:56  [dashboard_page] (TestNG-PoolService-2:) Successfully landed on the application
-2022-03-31 20:27:56  [dashboard_page] (TestNG-PoolService-4:) Successfully landed on the application
-2022-03-31 20:27:57  [dashboard_page] (TestNG-PoolService-3:) Testcase Validate Footer link  is failed
-2022-03-31 20:27:57  [dashboard_page] (TestNG-PoolService-3:) org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (374, 1468)
-  (Session info: chrome=99.0.4844.84)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'USBGOFIRDI1', ip: '192.168.0.103', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /var/folders/3r/cq_7n2w13gb...}, goog:chromeOptions: {debuggerAddress: localhost:56923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 775625bb882ec83d1e6607d7b7d1d489
-2022-03-31 20:27:59  [dashboard_page] (TestNG-PoolService-0:) Testcase Validate Car listing  is failed
-2022-03-31 20:27:59  [dashboard_page] (TestNG-PoolService-0:) java.lang.NullPointerException
-2022-03-31 20:27:59  [ApplicationHooks] (TestNG-PoolService-1:) closing the browser
-2022-03-31 20:28:00  [ApplicationHooks] (TestNG-PoolService-3:) closing the browser
-2022-03-31 20:28:02  [ApplicationHooks] (TestNG-PoolService-0:) closing the browser
-2022-03-31 20:28:09  [ApplicationHooks] (TestNG-PoolService-4:) ScreenBook_the_Car
-2022-03-31 20:28:13  [ApplicationHooks] (TestNG-PoolService-4:) closing the browser
-2022-03-31 20:28:18  [dashboard_page] (TestNG-PoolService-2:) Testcase Validate Search functionality is failed
-2022-03-31 20:28:18  [dashboard_page] (TestNG-PoolService-2:) org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='SEARCH'])[2]) (tried for 20 second(s) with 500 milliseconds interval)
-2022-03-31 20:28:21  [ApplicationHooks] (TestNG-PoolService-2:) closing the browser
-2022-03-31 20:30:11  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:30:11  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:30:12  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:30:15  [dashboard_page] (main:) Successfully landed on the application
-2022-03-31 20:30:18  [ApplicationHooks] (main:) ScreenBook_the_Car
-2022-03-31 20:30:22  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:31:50  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:31:51  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:31:52  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:31:55  [dashboard_page] (main:) Successfully landed on the application
-2022-03-31 20:31:55  [dashboard_page] (main:) Navigating to car listing page
-2022-03-31 20:31:58  [dashboard_page] (main:) Testcase Validate Car listing  is failed
-2022-03-31 20:31:58  [dashboard_page] (main:) java.lang.NullPointerException
-2022-03-31 20:32:01  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:32:28  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:32:28  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:32:29  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:32:32  [dashboard_page] (main:) Successfully landed on the application
-2022-03-31 20:32:35  [ApplicationHooks] (main:) ScreenBook_the_Car
-2022-03-31 20:32:40  [ApplicationHooks] (main:) closing the browser
-2022-03-31 20:36:19  [DriverFactory] (main:) Setting browser value
-2022-03-31 20:36:19  [ApplicationHooks] (main:) Launching browser
-2022-03-31 20:36:20  [ApplicationHooks] (main:) Entering the url.....
-2022-03-31 20:36:23  [dashboard_page] (main:) Successfully landed on the application
-2022-03-31 20:36:36  [ApplicationHooks] (main:) closing the browser
+2022-04-04 13:46:16  [DriverFactory] (TestNG-PoolService-6:) Setting browser value
+2022-04-04 13:46:18  [DriverFactory] (TestNG-PoolService-5:) Setting browser value
+2022-04-04 13:46:18  [DriverFactory] (TestNG-PoolService-2:) Setting browser value
+2022-04-04 13:46:18  [DriverFactory] (TestNG-PoolService-8:) Setting browser value
+2022-04-04 13:46:18  [DriverFactory] (TestNG-PoolService-1:) Setting browser value
+2022-04-04 13:46:19  [DriverFactory] (TestNG-PoolService-3:) Setting browser value
+2022-04-04 13:46:19  [DriverFactory] (TestNG-PoolService-4:) Setting browser value
+2022-04-04 13:46:19  [DriverFactory] (TestNG-PoolService-7:) Setting browser value
+2022-04-04 13:46:19  [DriverFactory] (TestNG-PoolService-0:) Setting browser value
+2022-04-04 13:46:19  [ApplicationHooks] (TestNG-PoolService-6:) Launching browser
+2022-04-04 13:46:20  [ApplicationHooks] (TestNG-PoolService-5:) Launching browser
+2022-04-04 13:46:20  [ApplicationHooks] (TestNG-PoolService-8:) Launching browser
+2022-04-04 13:46:20  [ApplicationHooks] (TestNG-PoolService-1:) Launching browser
+2022-04-04 13:46:20  [ApplicationHooks] (TestNG-PoolService-2:) Launching browser
+2022-04-04 13:46:20  [ApplicationHooks] (TestNG-PoolService-7:) Launching browser
+2022-04-04 13:46:20  [ApplicationHooks] (TestNG-PoolService-3:) Launching browser
+2022-04-04 13:46:20  [ApplicationHooks] (TestNG-PoolService-4:) Launching browser
+2022-04-04 13:46:20  [ApplicationHooks] (TestNG-PoolService-0:) Launching browser
+2022-04-04 13:46:25  [ApplicationHooks] (TestNG-PoolService-3:) Entering the url.....
+2022-04-04 13:46:25  [ApplicationHooks] (TestNG-PoolService-1:) Entering the url.....
+2022-04-04 13:46:25  [ApplicationHooks] (TestNG-PoolService-7:) Entering the url.....
+2022-04-04 13:46:25  [ApplicationHooks] (TestNG-PoolService-8:) Entering the url.....
+2022-04-04 13:46:26  [ApplicationHooks] (TestNG-PoolService-6:) Entering the url.....
+2022-04-04 13:46:26  [ApplicationHooks] (TestNG-PoolService-4:) Entering the url.....
+2022-04-04 13:46:26  [ApplicationHooks] (TestNG-PoolService-5:) Entering the url.....
+2022-04-04 13:46:26  [ApplicationHooks] (TestNG-PoolService-0:) Entering the url.....
+2022-04-04 13:46:26  [ApplicationHooks] (TestNG-PoolService-2:) Entering the url.....
+2022-04-04 13:46:28  [dashboard_page] (TestNG-PoolService-3:) Successfully landed on the application
+2022-04-04 13:46:28  [dashboard_page] (TestNG-PoolService-1:) Successfully landed on the application
+2022-04-04 13:46:28  [dashboard_page] (TestNG-PoolService-1:) My Profile link exists on the dashboard
+2022-04-04 13:46:28  [dashboard_page] (TestNG-PoolService-8:) Successfully landed on the application
+2022-04-04 13:46:28  [dashboard_page] (TestNG-PoolService-1:) My Profile link is enabled on the dashboard
+2022-04-04 13:46:28  [dashboard_page] (TestNG-PoolService-1:) Testcase Validate_My_Profile passed
+2022-04-04 13:46:28  [dashboard_page] (TestNG-PoolService-7:) Successfully landed on the application
+2022-04-04 13:46:29  [dashboard_page] (TestNG-PoolService-6:) Successfully landed on the application
+2022-04-04 13:46:29  [dashboard_page] (TestNG-PoolService-4:) Successfully landed on the application
+2022-04-04 13:46:29  [dashboard_page] (TestNG-PoolService-6:) Testcase Validate Find your car , popular ,Just launched,upcoming static elements appear in home page is passed
+2022-04-04 13:46:29  [dashboard_page] (TestNG-PoolService-5:) Successfully landed on the application
+2022-04-04 13:46:29  [dashboard_page] (TestNG-PoolService-0:) Successfully landed on the application
+2022-04-04 13:46:29  [dashboard_page] (TestNG-PoolService-0:) Navigating to car listing page
+2022-04-04 13:46:29  [dashboard_page] (TestNG-PoolService-2:) Successfully landed on the application
+2022-04-04 13:46:31  [dashboard_page] (TestNG-PoolService-2:) Search bar is validated
+2022-04-04 13:46:31  [ApplicationHooks] (TestNG-PoolService-1:) closing the browser
+2022-04-04 13:46:32  [dashboard_page] (TestNG-PoolService-3:) Number of footer links aretrue
+2022-04-04 13:46:32  [dashboard_page] (TestNG-PoolService-3:) Testcase Validate Footer link validation is pass
+2022-04-04 13:46:32  [ApplicationHooks] (TestNG-PoolService-6:) closing the browser
+2022-04-04 13:46:32  [dashboard_page] (TestNG-PoolService-0:) Testcase Validate Car listing is pass
+2022-04-04 13:46:34  [dashboard_page] (TestNG-PoolService-7:) Testcase Validate the on click of logo , user is taken to homepage is passed
+2022-04-04 13:46:35  [ApplicationHooks] (TestNG-PoolService-3:) closing the browser
+2022-04-04 13:46:36  [ApplicationHooks] (TestNG-PoolService-0:) closing the browser
+2022-04-04 13:46:37  [ApplicationHooks] (TestNG-PoolService-4:) closing the browser
+2022-04-04 13:46:37  [ApplicationHooks] (TestNG-PoolService-5:) closing the browser
+2022-04-04 13:46:37  [ApplicationHooks] (TestNG-PoolService-7:) closing the browser
+2022-04-04 13:46:43  [ApplicationHooks] (TestNG-PoolService-8:) closing the browser
+2022-04-04 13:47:02  [dashboard_page] (TestNG-PoolService-2:) Testcase Validate Search functionality is failed
+2022-04-04 13:47:02  [dashboard_page] (TestNG-PoolService-2:) org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='SEARCH'])[2]) (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-04 13:47:02  [ApplicationHooks] (TestNG-PoolService-2:) ScreenValidate_Search_functionality
+2022-04-04 13:47:06  [ApplicationHooks] (TestNG-PoolService-2:) closing the browser

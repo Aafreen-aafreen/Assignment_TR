@@ -24,20 +24,37 @@ public class dashboard_page {
 
     @Given("launching application & validate the title of the page")
     public void validateTheTitleOfThePage() {
-        System.out.println("Step");
-        System.out.println(driver);
-        DOMConfigurator.configure(log_file_name);
-        String title = d.getDashboardPageTitle();
-        assertEquals(title, "Home");
-        logger.info("Successfully landed on the application");
+        try {
+            System.out.println("Step");
+            System.out.println(driver);
+            DOMConfigurator.configure(log_file_name);
+            String title = d.getDashboardPageTitle();
+            assertEquals(title, "Home");
+            logger.info("Successfully landed on the application");
+        }
+        catch (Exception e)
+        {
+            logger.info("Exception occurred,please refer the details below");
+            logger.error(e);
+            assert false;
+        }
     }
 
     @Then("validate my profile button exists")
     public void validateTheMYProfileLink() {
-        boolean a;
-        a = d.is_my_profileExist();
-        assert a;
-        logger.info("My Profile link exists on the dashboard");
+        try {
+
+            boolean a;
+            a = d.is_my_profileExist();
+            assert a;
+            logger.info("My Profile link exists on the dashboard");
+        }
+        catch(Exception e)
+        {
+            logger.info("Exception occurred,please refer the details below");
+            logger.error(e);
+            assert false;
+        }
 
     }
 
@@ -52,6 +69,7 @@ public class dashboard_page {
         } catch (Exception e) {
             logger.info("Testcase Validate_My_Profile failed");
             logger.error(e);
+            assert false;
         }
 
     }
@@ -67,13 +85,13 @@ public class dashboard_page {
     public void searchForACar() throws InterruptedException {
         try {
             d.entercarname();
-            d.click_search_car();
-            logger.info("Testcase Validate Search functionality is pass");
+            logger.info("Search bar is validated");
         }
         catch(Exception e)
         {
-            logger.info("Testcase Validate Search functionality is failed");
+            logger.info("Search bar validation is failed");
             logger.error(e);
+            assert false;
         }
     }
 
@@ -81,7 +99,7 @@ public class dashboard_page {
     public void validateLinksInTheFooter() {
         try{
       boolean c=  d.is_FooterLinks_clickable();
-      System.out.println(c);
+      logger.info("Number of footer links are" + c);
       assertEquals(c, true);
       logger.info("Testcase Validate Footer link validation is pass");
 
@@ -90,6 +108,7 @@ public class dashboard_page {
         {
             logger.info("Testcase Validate Footer link  is failed");
             logger.error(e);
+            assert false;
         }
 }
 
@@ -104,12 +123,21 @@ public class dashboard_page {
         {
             logger.info("Testcase Validate Car listing  is failed");
             logger.error(e);
+            assert false;
     }}
 
     @Then("click on view all cars button on dashboard")
     public void clickOnViewAllCarsButtonOnDashboard() throws InterruptedException {
-        logger.info("Navigating to car listing page");
-        d.click_ViewAll();
+        try {
+            logger.info("Navigating to car listing page");
+            d.click_ViewAll();
+        }
+        catch(Exception e)
+        {
+            logger.info("Exception occurred,please refer the details below");
+            logger.error(e);
+            assert false;
+        }
 
     }
     //Saleem's code////////////////////////////
@@ -119,7 +147,15 @@ public class dashboard_page {
 
     @Then("Click on Book Now")
     public void clickOnBookNow() throws InterruptedException {
-        c.click_bookButton();
+        try {
+            c.click_bookButton();
+        }
+        catch(Exception e)
+        {
+            logger.info("Exception occurred,please refer the details below");
+            logger.error(e);
+            assert false;
+        }
     }
 
   
@@ -128,48 +164,192 @@ public class dashboard_page {
 
     @Then("Check the terms and conditions")
     public void checkTheTermsAndConditions() {
-        b.selectTerms();
+        try {
+            b.selectTerms();
+        }
+        catch(Exception e)
+        {
+            logger.info("Exception occurred,please refer the details below");
+            logger.error(e);
+            assert false;
+        }
     }
 
     @Then("Click on Submit button")
     public void clickOnSubmitButton() {
-        b.submit();
+        try{
+            b.submit();
+        }
+        catch(Exception e)
+        {
+            logger.info("Exception occurred,please refer the details below");
+            logger.error(e);
+            assert false;
+        }
     }
 
     
 
     @Then("Validate the booking is successful")
     public void validateTheBookingIsSuccessful() {
-        b.validateBooking();
+        try{
+            b.validateBooking();
+        }
+        catch(Exception e)
+        {
+            logger.info("Exception occurred,please refer the details below");
+            logger.error(e);
+            assert false;
+        }
     }
 
     @Then("Enter the name in username textbox on Booking page")
     public void enterTheNameInUsernameTextboxOnBookingPage() {
-        b.enterName();
+       try{
+           b.enterName();
+       }
+       catch(Exception e)
+       {
+           logger.info("Exception occurred,please refer the details below");
+           logger.error(e);
+           assert false;
+       }
     }
 
     @Then("Enter the Contact No in contact number texbox on Booking page")
     public void enterTheContactNoInContactNumberTexboxOnBookingPage() {
-        b.enterContactNumber();
+        try{
+            b.enterContactNumber();
+        }
+        catch(Exception e)
+        {
+            logger.info("Exception occurred,please refer the details below");
+            logger.error(e);
+            assert false;
+        }
     }
 
     @Then("Enter the City in city textbox on Booking page")
     public void enterTheCityInCityTextboxOnBookingPage() {
-        b.enterCity();
+        try{
+            b.enterCity();
+        }
+        catch(Exception e)
+        {
+            logger.info("Exception occurred,please refer the details below");
+            logger.error(e);
+            assert false;
+        }
     }
 
     @And("Click the Car  you want to book")
     public void clickTheCarYouWantToBook() throws InterruptedException {
-        d.bookCar();
+       try{
+           d.bookCar();
+       }
+       catch(Exception e)
+       {
+           logger.info("Exception occurred,please refer the details below");
+           logger.error(e);
+           assert false;
+       }
     }
 
     @Then("Validate the car details of in car details page")
     public void validateTheCarDetailsOfInCarDetailsPage() {
-        c.validateDetails();
+       try{
+           c.validateDetails();
+       }
+       catch(Exception e)
+       {
+           logger.info("Exception occurred,please refer the details below");
+           logger.error(e);
+           assert false;
+       }
     }
 
     @Then("Validate the car details of selected car on booking page")
     public void validateTheCarDetailsOfSelectedCarOnBookingPage() {
-        b.validateDetailsonBooking();
+        try{
+            b.validateDetailsonBooking();
+        }
+        catch(Exception e)
+        {
+            logger.info("Exception occurred,please refer the details below");
+            logger.error(e);
+            assert false;
+        }
+    }
+
+    @And("validate search bar & search button are present")
+    public void validateSearchBarSearchButtonArePresent() throws InterruptedException {
+        try {
+            d.click_search_car();
+            logger.info("Testcase Validate Search functionality is pass");
+        }
+        catch(Exception e)
+        {
+            logger.info("Testcase Validate Search functionality is failed");
+            logger.error(e);
+            assert false;
+        }
+    }
+
+    @And("validating if logo is present across the website")
+    public void validatingIfLogoIsPresentAcrossTheWebsite() {
+    try{
+        d.validate_logo_presence();
+    }
+    catch(Exception e)
+    {
+        logger.info("Testcase validatingIfLogoIsPresentAcrossTheWebsite is failed");
+        logger.error(e);
+        assert false;
+    }
+    }
+
+    @And("Validate New Car & Used car exists across all webpages")
+    public void validateNewCarUsedCarExistsacrossallwebpages() {
+        try{
+            d.validate_newcar_usedcar_exists();
+        }
+        catch(Exception e)
+        {
+            logger.info("Testcase Validate New Car & Used car exists on homepage is failed");
+            logger.error(e);
+            assert false;
+        }
+    }
+
+    @And("Validate Find your car , popular ,Just launched,upcoming static elements appear in home page")
+    public void validateFindYourCarPopularJustLaunchedUpcomingStaticElementsAppearInHomePage() {
+        try
+        {
+        d.elements_static_validation();
+            logger.info("Testcase Validate Find your car , popular ,Just launched,upcoming static elements appear in home page is passed");
+
+        }
+        catch(Exception e)
+        {
+            logger.info("Testcase Validate Find your car , popular ,Just launched,upcoming static elements appear in home page is failed");
+            logger.error(e);
+            assert false;
+        }
+    }
+
+    @And("Validate the on click of logo , user is taken to homepage")
+    public void validateTheOnClickOfLogoUserIsTakenToHomepage() {
+        try
+        {
+            d.logo_functionality();
+            logger.info("Testcase Validate the on click of logo , user is taken to homepage is passed");
+
+        }
+        catch(Exception e)
+        {
+            logger.info("Testcase Validate the on click of logo , user is taken to homepage is failed");
+            logger.error(e);
+            assert false;
+        }
     }
 }
