@@ -1,5 +1,9 @@
+Pages/CarList.class
 Utilities/PropertyFileReader.class
 Utilities/DriverFactory.class
+Pages/Master_page.class
+Pages/Dashboard.class
+Pages/E2E.class
 Pages/Footer.class
 Utilities/ExcelReader.class
-Pages/Dashboard.class
+Pages/Booking.class

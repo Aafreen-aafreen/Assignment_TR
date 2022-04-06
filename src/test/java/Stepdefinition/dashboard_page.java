@@ -7,6 +7,7 @@ import Utilities.DriverFactory;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
@@ -351,5 +352,14 @@ public class dashboard_page {
             logger.error(e);
             assert false;
         }
+    }
+    @When("the users clicks on View All page")
+    public void the_users_clicks_on_view_all_page() throws InterruptedException {
+        c.click_ViewAllButton();
+    }
+
+    @Then("count the total numbers of cars in each section")
+    public void count_the_total_numbers_of_cars_in_each_section() throws InterruptedException {
+        c.countTheTotalCars();
     }
 }

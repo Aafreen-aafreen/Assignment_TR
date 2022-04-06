@@ -56,3 +56,67 @@
 2022-04-04 13:47:02  [dashboard_page] (TestNG-PoolService-2:) org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='SEARCH'])[2]) (tried for 30 second(s) with 500 milliseconds interval)
 2022-04-04 13:47:02  [ApplicationHooks] (TestNG-PoolService-2:) ScreenValidate_Search_functionality
 2022-04-04 13:47:06  [ApplicationHooks] (TestNG-PoolService-2:) closing the browser
+2022-04-06 12:28:20  [DriverFactory] (main:) Setting browser value
+2022-04-06 12:28:21  [ApplicationHooks] (main:) Launching browser
+2022-04-06 12:28:22  [ApplicationHooks] (main:) Entering the url.....
+2022-04-06 12:28:25  [dashboard_page] (main:) Successfully landed on the application
+2022-04-06 12:28:25  [dashboard_page] (main:) Navigating to car listing page
+2022-04-06 12:28:28  [dashboard_page] (main:) Testcase Validate Car listing is pass
+2022-04-06 12:28:31  [ApplicationHooks] (main:) closing the browser
+2022-04-06 12:28:34  [DriverFactory] (main:) Setting browser value
+2022-04-06 12:28:34  [ApplicationHooks] (main:) Launching browser
+2022-04-06 12:28:35  [ApplicationHooks] (main:) Entering the url.....
+2022-04-06 12:28:38  [dashboard_page] (main:) Successfully landed on the application
+2022-04-06 12:29:03  [ApplicationHooks] (main:) ScreenValidate_the_total_number_of_cars_in_View_All_page
+2022-04-06 12:29:06  [ApplicationHooks] (main:) closing the browser
+2022-04-06 12:29:08  [DriverFactory] (main:) Setting browser value
+2022-04-06 12:29:09  [ApplicationHooks] (main:) Launching browser
+2022-04-06 12:29:10  [ApplicationHooks] (main:) Entering the url.....
+2022-04-06 12:29:13  [dashboard_page] (main:) Successfully landed on the application
+2022-04-06 12:29:13  [dashboard_page] (main:) My Profile link exists on the dashboard
+2022-04-06 12:29:13  [dashboard_page] (main:) My Profile link is enabled on the dashboard
+2022-04-06 12:29:13  [dashboard_page] (main:) Testcase Validate_My_Profile passed
+2022-04-06 12:29:16  [ApplicationHooks] (main:) closing the browser
+2022-04-06 12:29:18  [DriverFactory] (main:) Setting browser value
+2022-04-06 12:29:18  [ApplicationHooks] (main:) Launching browser
+2022-04-06 12:29:19  [ApplicationHooks] (main:) Entering the url.....
+2022-04-06 12:29:22  [dashboard_page] (main:) Successfully landed on the application
+2022-04-06 12:29:24  [dashboard_page] (main:) Search bar is validated
+2022-04-06 12:29:55  [dashboard_page] (main:) Testcase Validate Search functionality is failed
+2022-04-06 12:29:55  [dashboard_page] (main:) org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='SEARCH'])[2]) (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 12:29:55  [ApplicationHooks] (main:) ScreenValidate_Search_functionality
+2022-04-06 12:29:58  [ApplicationHooks] (main:) closing the browser
+2022-04-06 12:30:01  [DriverFactory] (main:) Setting browser value
+2022-04-06 12:30:01  [ApplicationHooks] (main:) Launching browser
+2022-04-06 12:30:02  [ApplicationHooks] (main:) Entering the url.....
+2022-04-06 12:30:05  [dashboard_page] (main:) Successfully landed on the application
+2022-04-06 12:30:06  [dashboard_page] (main:) Number of footer links aretrue
+2022-04-06 12:30:06  [dashboard_page] (main:) Testcase Validate Footer link validation is pass
+2022-04-06 12:30:09  [ApplicationHooks] (main:) closing the browser
+2022-04-06 12:30:11  [DriverFactory] (main:) Setting browser value
+2022-04-06 12:30:11  [ApplicationHooks] (main:) Launching browser
+2022-04-06 12:30:12  [ApplicationHooks] (main:) Entering the url.....
+2022-04-06 12:30:15  [dashboard_page] (main:) Successfully landed on the application
+2022-04-06 12:30:20  [ApplicationHooks] (main:) closing the browser
+2022-04-06 12:30:21  [DriverFactory] (main:) Setting browser value
+2022-04-06 12:30:22  [ApplicationHooks] (main:) Launching browser
+2022-04-06 12:30:23  [ApplicationHooks] (main:) Entering the url.....
+2022-04-06 12:30:26  [dashboard_page] (main:) Successfully landed on the application
+2022-04-06 12:30:30  [ApplicationHooks] (main:) closing the browser
+2022-04-06 12:30:32  [DriverFactory] (main:) Setting browser value
+2022-04-06 12:30:32  [ApplicationHooks] (main:) Launching browser
+2022-04-06 12:30:33  [ApplicationHooks] (main:) Entering the url.....
+2022-04-06 12:30:36  [dashboard_page] (main:) Successfully landed on the application
+2022-04-06 12:30:36  [dashboard_page] (main:) Testcase Validate Find your car , popular ,Just launched,upcoming static elements appear in home page is passed
+2022-04-06 12:30:39  [ApplicationHooks] (main:) closing the browser
+2022-04-06 12:30:41  [DriverFactory] (main:) Setting browser value
+2022-04-06 12:30:41  [ApplicationHooks] (main:) Launching browser
+2022-04-06 12:30:42  [ApplicationHooks] (main:) Entering the url.....
+2022-04-06 12:30:45  [dashboard_page] (main:) Successfully landed on the application
+2022-04-06 12:30:46  [dashboard_page] (main:) Testcase Validate the on click of logo , user is taken to homepage is passed
+2022-04-06 12:30:49  [ApplicationHooks] (main:) closing the browser
+2022-04-06 12:30:51  [DriverFactory] (main:) Setting browser value
+2022-04-06 12:30:52  [ApplicationHooks] (main:) Launching browser
+2022-04-06 12:30:52  [ApplicationHooks] (main:) Entering the url.....
+2022-04-06 12:30:55  [dashboard_page] (main:) Successfully landed on the application
+2022-04-06 12:31:08  [ApplicationHooks] (main:) closing the browser
