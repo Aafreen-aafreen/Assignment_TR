@@ -124,35 +124,55 @@
                 <configuration>
                     <includes>
                         <include>**/TestRunner_2.java</include>
+                        <include>**/TestRunner_3.java</include>
                     </includes>
                     <parallel>all</parallel>
                    <threadCount>5</threadCount>
                     <useUnlimitedThreads>true</useUnlimitedThreads>
                 </configuration>
             </plugin>
-
-        <!--    <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-failsafe-plugin</artifactId>
-                <version>3.0.0</version>
+           <!-- <plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>5.7.0</version>
                 <executions>
                     <execution>
+                        <id>execution</id>
+                        <phase>verify</phase>
                         <goals>
-                            <goal>integration-test</goal>
-                </goals>
+                            <goal>generate</goal>
+                        </goals>
                         <configuration>
-                            <includes>
-                                <include>**/MyTestRunner.java</include>
-
-                           </includes>
-                            <parallel>methods</parallel>
-                            <threadCount>4</threadCount>
-                            <perCoreThreadCount>true</perCoreThreadCount>
-
-                </configuration>
+                            <projectName>test-report</projectName>
+                            <outputDirectory>/Users/firdi/Library/CloudStorage/OneDrive-Deloitte(O365D)/TR_Training/target/cucumber-reports</outputDirectory>
+                        </configuration>
                     </execution>
                 </executions>
-            </plugin> -->
+            </plugin>-->
+
+
+            <!--    <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-failsafe-plugin</artifactId>
+                    <version>3.0.0</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>integration-test</goal>
+                    </goals>
+                            <configuration>
+                                <includes>
+                                    <include>**/MyTestRunner.java</include>
+
+                               </includes>
+                                <parallel>methods</parallel>
+                                <threadCount>4</threadCount>
+                                <perCoreThreadCount>true</perCoreThreadCount>
+
+                    </configuration>
+                        </execution>
+                    </executions>
+                </plugin> -->
 
 
         </plugins>

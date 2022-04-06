@@ -3,9 +3,16 @@
 <suite verbose="0" name="Failed suite [Surefire suite]">
   <test thread-count="5" verbose="0" name="Surefire test(failed)">
     <classes>
+      <class name="Stepdefinition.TestRunner_3">
+        <methods>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Stepdefinition.TestRunner_3 -->
       <class name="Stepdefinition.TestRunner_2">
         <methods>
-          <include name="runScenario" invocation-numbers="1 3"/>
+          <include name="runScenario" invocation-numbers="1"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>

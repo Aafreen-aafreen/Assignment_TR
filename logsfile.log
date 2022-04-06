@@ -477,3 +477,249 @@ Driver info: driver.version: RemoteWebDriver
 2022-04-06 13:22:11  [dashboard_page] (TestNG-PoolService-3:) org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='SEARCH'])[2]) (tried for 30 second(s) with 500 milliseconds interval)
 2022-04-06 13:22:11  [ApplicationHooks] (TestNG-PoolService-3:) ScreenValidate_Search_functionality
 2022-04-06 13:22:15  [ApplicationHooks] (TestNG-PoolService-3:) closing the browser
+2022-04-06 13:53:05  [DriverFactory] (TestNG-PoolService-4:) Setting browser value
+2022-04-06 13:53:05  [DriverFactory] (TestNG-PoolService-2:) Setting browser value
+2022-04-06 13:53:05  [DriverFactory] (TestNG-PoolService-9:) Setting browser value
+2022-04-06 13:53:05  [DriverFactory] (TestNG-PoolService-6:) Setting browser value
+2022-04-06 13:53:05  [DriverFactory] (TestNG-PoolService-3:) Setting browser value
+2022-04-06 13:53:05  [DriverFactory] (TestNG-PoolService-5:) Setting browser value
+2022-04-06 13:53:05  [DriverFactory] (TestNG-PoolService-8:) Setting browser value
+2022-04-06 13:53:05  [DriverFactory] (TestNG-PoolService-7:) Setting browser value
+2022-04-06 13:53:05  [DriverFactory] (TestNG-PoolService-1:) Setting browser value
+2022-04-06 13:53:05  [DriverFactory] (TestNG-PoolService-0:) Setting browser value
+2022-04-06 13:53:13  [ApplicationHooks] (TestNG-PoolService-5:) Launching browser
+2022-04-06 13:53:13  [ApplicationHooks] (TestNG-PoolService-6:) Launching browser
+2022-04-06 13:53:13  [ApplicationHooks] (TestNG-PoolService-7:) Launching browser
+2022-04-06 13:53:14  [ApplicationHooks] (TestNG-PoolService-9:) Launching browser
+2022-04-06 13:53:14  [ApplicationHooks] (TestNG-PoolService-0:) Launching browser
+2022-04-06 13:53:14  [ApplicationHooks] (TestNG-PoolService-4:) Launching browser
+2022-04-06 13:53:14  [ApplicationHooks] (TestNG-PoolService-8:) Launching browser
+2022-04-06 13:53:14  [ApplicationHooks] (TestNG-PoolService-3:) Launching browser
+2022-04-06 13:53:14  [ApplicationHooks] (TestNG-PoolService-2:) Launching browser
+2022-04-06 13:53:14  [ApplicationHooks] (TestNG-PoolService-1:) Launching browser
+2022-04-06 13:53:21  [ApplicationHooks] (TestNG-PoolService-6:) Entering the url.....
+2022-04-06 13:53:22  [ApplicationHooks] (TestNG-PoolService-0:) Entering the url.....
+2022-04-06 13:53:22  [ApplicationHooks] (TestNG-PoolService-4:) Entering the url.....
+2022-04-06 13:53:22  [ApplicationHooks] (TestNG-PoolService-8:) Entering the url.....
+2022-04-06 13:53:22  [ApplicationHooks] (TestNG-PoolService-7:) Entering the url.....
+2022-04-06 13:53:23  [ApplicationHooks] (TestNG-PoolService-5:) Entering the url.....
+2022-04-06 13:53:23  [ApplicationHooks] (TestNG-PoolService-9:) Entering the url.....
+2022-04-06 13:53:23  [ApplicationHooks] (TestNG-PoolService-3:) Entering the url.....
+2022-04-06 13:53:23  [ApplicationHooks] (TestNG-PoolService-2:) Entering the url.....
+2022-04-06 13:53:23  [ApplicationHooks] (TestNG-PoolService-1:) Entering the url.....
+2022-04-06 13:53:24  [dashboard_page] (TestNG-PoolService-6:) Successfully landed on the application
+2022-04-06 13:53:25  [dashboard_page] (TestNG-PoolService-0:) Successfully landed on the application
+2022-04-06 13:53:25  [dashboard_page] (TestNG-PoolService-0:) Navigating to car listing page
+2022-04-06 13:53:25  [dashboard_page] (TestNG-PoolService-4:) Successfully landed on the application
+2022-04-06 13:53:25  [dashboard_page] (TestNG-PoolService-8:) Successfully landed on the application
+2022-04-06 13:53:26  [dashboard_page] (TestNG-PoolService-7:) Successfully landed on the application
+2022-04-06 13:53:26  [dashboard_page] (TestNG-PoolService-5:) Successfully landed on the application
+2022-04-06 13:53:26  [dashboard_page] (TestNG-PoolService-9:) Successfully landed on the application
+2022-04-06 13:53:26  [dashboard_page] (TestNG-PoolService-7:) Testcase Validate Find your car , popular ,Just launched,upcoming static elements appear in home page is passed
+2022-04-06 13:53:26  [dashboard_page] (TestNG-PoolService-3:) Successfully landed on the application
+2022-04-06 13:53:26  [dashboard_page] (TestNG-PoolService-2:) Successfully landed on the application
+2022-04-06 13:53:26  [dashboard_page] (TestNG-PoolService-2:) My Profile link exists on the dashboard
+2022-04-06 13:53:26  [dashboard_page] (TestNG-PoolService-1:) Successfully landed on the application
+2022-04-06 13:53:26  [dashboard_page] (TestNG-PoolService-2:) My Profile link is enabled on the dashboard
+2022-04-06 13:53:26  [dashboard_page] (TestNG-PoolService-2:) Testcase Validate_My_Profile passed
+2022-04-06 13:53:28  [dashboard_page] (TestNG-PoolService-3:) Search bar is validated
+2022-04-06 13:53:29  [dashboard_page] (TestNG-PoolService-0:) Testcase Validate Car listing is pass
+2022-04-06 13:53:29  [ApplicationHooks] (TestNG-PoolService-7:) closing the browser
+2022-04-06 13:53:29  [ApplicationHooks] (TestNG-PoolService-2:) closing the browser
+2022-04-06 13:53:32  [ApplicationHooks] (TestNG-PoolService-0:) closing the browser
+2022-04-06 13:53:33  [dashboard_page] (TestNG-PoolService-4:) Number of footer links aretrue
+2022-04-06 13:53:33  [dashboard_page] (TestNG-PoolService-4:) Testcase Validate Footer link validation is pass
+2022-04-06 13:53:34  [dashboard_page] (TestNG-PoolService-8:) Testcase Validate the on click of logo , user is taken to homepage is passed
+2022-04-06 13:53:35  [ApplicationHooks] (TestNG-PoolService-6:) closing the browser
+2022-04-06 13:53:36  [ApplicationHooks] (TestNG-PoolService-4:) closing the browser
+2022-04-06 13:53:36  [ApplicationHooks] (TestNG-PoolService-5:) closing the browser
+2022-04-06 13:53:37  [ApplicationHooks] (TestNG-PoolService-8:) closing the browser
+2022-04-06 13:53:41  [ApplicationHooks] (TestNG-PoolService-9:) closing the browser
+2022-04-06 13:53:52  [ApplicationHooks] (TestNG-PoolService-1:) ScreenValidate_the_total_number_of_cars_in_View_All_page
+2022-04-06 13:53:55  [ApplicationHooks] (TestNG-PoolService-1:) closing the browser
+2022-04-06 13:53:58  [dashboard_page] (TestNG-PoolService-3:) Testcase Validate Search functionality is failed
+2022-04-06 13:53:58  [dashboard_page] (TestNG-PoolService-3:) org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='SEARCH'])[2]) (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 13:53:58  [ApplicationHooks] (TestNG-PoolService-3:) ScreenValidate_Search_functionality
+2022-04-06 13:54:02  [ApplicationHooks] (TestNG-PoolService-3:) closing the browser
+2022-04-06 14:03:09  [DriverFactory] (TestNG-PoolService-5:) Setting browser value
+2022-04-06 14:03:09  [DriverFactory] (TestNG-PoolService-2:) Setting browser value
+2022-04-06 14:03:09  [DriverFactory] (TestNG-PoolService-0:) Setting browser value
+2022-04-06 14:03:09  [DriverFactory] (TestNG-PoolService-9:) Setting browser value
+2022-04-06 14:03:09  [DriverFactory] (TestNG-PoolService-1:) Setting browser value
+2022-04-06 14:03:09  [DriverFactory] (TestNG-PoolService-3:) Setting browser value
+2022-04-06 14:03:09  [DriverFactory] (TestNG-PoolService-4:) Setting browser value
+2022-04-06 14:03:09  [DriverFactory] (TestNG-PoolService-6:) Setting browser value
+2022-04-06 14:03:09  [DriverFactory] (TestNG-PoolService-8:) Setting browser value
+2022-04-06 14:03:09  [DriverFactory] (TestNG-PoolService-7:) Setting browser value
+2022-04-06 14:03:13  [ApplicationHooks] (TestNG-PoolService-5:) Launching browser
+2022-04-06 14:03:13  [ApplicationHooks] (TestNG-PoolService-0:) Launching browser
+2022-04-06 14:03:13  [ApplicationHooks] (TestNG-PoolService-4:) Launching browser
+2022-04-06 14:03:18  [ApplicationHooks] (TestNG-PoolService-1:) Launching browser
+2022-04-06 14:03:20  [ApplicationHooks] (TestNG-PoolService-0:) Entering the url.....
+2022-04-06 14:03:20  [ApplicationHooks] (TestNG-PoolService-5:) Entering the url.....
+2022-04-06 14:03:20  [ApplicationHooks] (TestNG-PoolService-4:) Entering the url.....
+2022-04-06 14:03:20  [ApplicationHooks] (TestNG-PoolService-8:) Launching browser
+2022-04-06 14:03:20  [ApplicationHooks] (TestNG-PoolService-3:) Launching browser
+2022-04-06 14:03:21  [ApplicationHooks] (TestNG-PoolService-6:) Launching browser
+2022-04-06 14:03:23  [ApplicationHooks] (TestNG-PoolService-7:) Launching browser
+2022-04-06 14:03:23  [ApplicationHooks] (TestNG-PoolService-2:) Launching browser
+2022-04-06 14:03:23  [dashboard_page] (TestNG-PoolService-4:) Successfully landed on the application
+2022-04-06 14:03:23  [dashboard_page] (TestNG-PoolService-0:) Successfully landed on the application
+2022-04-06 14:03:23  [dashboard_page] (TestNG-PoolService-5:) Successfully landed on the application
+2022-04-06 14:03:23  [dashboard_page] (TestNG-PoolService-0:) Navigating to car listing page
+2022-04-06 14:03:24  [ApplicationHooks] (TestNG-PoolService-1:) Entering the url.....
+2022-04-06 14:03:27  [dashboard_page] (TestNG-PoolService-1:) Successfully landed on the application
+2022-04-06 14:03:28  [dashboard_page] (TestNG-PoolService-0:) Testcase Validate Car listing is pass
+2022-04-06 14:03:31  [ApplicationHooks] (TestNG-PoolService-8:) Entering the url.....
+2022-04-06 14:03:31  [ApplicationHooks] (TestNG-PoolService-0:) closing the browser
+2022-04-06 14:03:32  [ApplicationHooks] (TestNG-PoolService-3:) Entering the url.....
+2022-04-06 14:03:34  [dashboard_page] (TestNG-PoolService-8:) Successfully landed on the application
+2022-04-06 14:03:35  [ApplicationHooks] (TestNG-PoolService-6:) Entering the url.....
+2022-04-06 14:03:35  [dashboard_page] (TestNG-PoolService-3:) Successfully landed on the application
+2022-04-06 14:03:37  [dashboard_page] (TestNG-PoolService-3:) Search bar is validated
+2022-04-06 14:03:38  [dashboard_page] (TestNG-PoolService-6:) Successfully landed on the application
+2022-04-06 14:03:38  [dashboard_page] (TestNG-PoolService-4:) Number of footer links aretrue
+2022-04-06 14:03:38  [dashboard_page] (TestNG-PoolService-4:) Testcase Validate Footer link validation is pass
+2022-04-06 14:03:39  [ApplicationHooks] (TestNG-PoolService-7:) Entering the url.....
+2022-04-06 14:03:39  [ApplicationHooks] (TestNG-PoolService-2:) Entering the url.....
+2022-04-06 14:03:41  [ApplicationHooks] (TestNG-PoolService-4:) closing the browser
+2022-04-06 14:03:42  [dashboard_page] (TestNG-PoolService-7:) Successfully landed on the application
+2022-04-06 14:03:42  [ApplicationHooks] (TestNG-PoolService-5:) closing the browser
+2022-04-06 14:03:43  [dashboard_page] (TestNG-PoolService-2:) Successfully landed on the application
+2022-04-06 14:03:43  [dashboard_page] (TestNG-PoolService-7:) Testcase Validate Find your car , popular ,Just launched,upcoming static elements appear in home page is passed
+2022-04-06 14:03:43  [dashboard_page] (TestNG-PoolService-2:) My Profile link exists on the dashboard
+2022-04-06 14:03:44  [dashboard_page] (TestNG-PoolService-2:) My Profile link is enabled on the dashboard
+2022-04-06 14:03:44  [dashboard_page] (TestNG-PoolService-2:) Testcase Validate_My_Profile passed
+2022-04-06 14:03:47  [ApplicationHooks] (TestNG-PoolService-7:) closing the browser
+2022-04-06 14:03:47  [ApplicationHooks] (TestNG-PoolService-2:) closing the browser
+2022-04-06 14:03:53  [ApplicationHooks] (TestNG-PoolService-9:) Launching browser
+2022-04-06 14:03:58  [dashboard_page] (TestNG-PoolService-8:) Testcase Validate the on click of logo , user is taken to homepage is passed
+2022-04-06 14:03:59  [ApplicationHooks] (TestNG-PoolService-1:) ScreenValidate_the_total_number_of_cars_in_View_All_page
+2022-04-06 14:04:01  [ApplicationHooks] (TestNG-PoolService-8:) closing the browser
+2022-04-06 14:04:01  [ApplicationHooks] (TestNG-PoolService-6:) closing the browser
+2022-04-06 14:04:02  [ApplicationHooks] (TestNG-PoolService-9:) Entering the url.....
+2022-04-06 14:04:05  [ApplicationHooks] (TestNG-PoolService-1:) closing the browser
+2022-04-06 14:04:05  [dashboard_page] (TestNG-PoolService-9:) Successfully landed on the application
+2022-04-06 14:04:07  [dashboard_page] (TestNG-PoolService-3:) Testcase Validate Search functionality is failed
+2022-04-06 14:04:07  [dashboard_page] (TestNG-PoolService-3:) org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='SEARCH'])[2]) (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 14:04:07  [ApplicationHooks] (TestNG-PoolService-3:) ScreenValidate_Search_functionality
+2022-04-06 14:04:12  [ApplicationHooks] (TestNG-PoolService-3:) closing the browser
+2022-04-06 14:04:20  [ApplicationHooks] (TestNG-PoolService-9:) closing the browser
+2022-04-06 14:18:57  [DriverFactory] (TestNG-PoolService-1:) Setting browser value
+2022-04-06 14:18:57  [DriverFactory] (TestNG-PoolService-0:) Setting browser value
+2022-04-06 14:18:57  [ApplicationHooks] (TestNG-PoolService-0:) Launching browser
+2022-04-06 14:18:57  [ApplicationHooks] (TestNG-PoolService-1:) Launching browser
+2022-04-06 14:18:58  [ApplicationHooks] (TestNG-PoolService-1:) Entering the url.....
+2022-04-06 14:18:58  [ApplicationHooks] (TestNG-PoolService-0:) Entering the url.....
+2022-04-06 14:19:01  [dashboard_page] (TestNG-PoolService-1:) Successfully landed on the application
+2022-04-06 14:19:01  [dashboard_page] (TestNG-PoolService-0:) Successfully landed on the application
+2022-04-06 14:19:01  [dashboard_page] (TestNG-PoolService-0:) Navigating to car listing page
+2022-04-06 14:19:04  [dashboard_page] (TestNG-PoolService-0:) Testcase Validate Car listing is pass
+2022-04-06 14:19:07  [ApplicationHooks] (TestNG-PoolService-0:) closing the browser
+2022-04-06 14:19:26  [ApplicationHooks] (TestNG-PoolService-1:) ScreenValidate_the_total_number_of_cars_in_View_All_page
+2022-04-06 14:19:29  [ApplicationHooks] (TestNG-PoolService-1:) closing the browser
+2022-04-06 14:19:38  [DriverFactory] (TestNG-PoolService-1:) Setting browser value
+2022-04-06 14:19:38  [DriverFactory] (TestNG-PoolService-4:) Setting browser value
+2022-04-06 14:19:38  [DriverFactory] (TestNG-PoolService-0:) Setting browser value
+2022-04-06 14:19:38  [DriverFactory] (TestNG-PoolService-6:) Setting browser value
+2022-04-06 14:19:38  [DriverFactory] (TestNG-PoolService-2:) Setting browser value
+2022-04-06 14:19:38  [DriverFactory] (TestNG-PoolService-3:) Setting browser value
+2022-04-06 14:19:38  [DriverFactory] (TestNG-PoolService-5:) Setting browser value
+2022-04-06 14:19:39  [ApplicationHooks] (TestNG-PoolService-1:) Launching browser
+2022-04-06 14:19:39  [ApplicationHooks] (TestNG-PoolService-4:) Launching browser
+2022-04-06 14:19:39  [ApplicationHooks] (TestNG-PoolService-0:) Launching browser
+2022-04-06 14:19:39  [ApplicationHooks] (TestNG-PoolService-2:) Launching browser
+2022-04-06 14:19:42  [ApplicationHooks] (TestNG-PoolService-5:) Launching browser
+2022-04-06 14:19:42  [ApplicationHooks] (TestNG-PoolService-6:) Launching browser
+2022-04-06 14:19:42  [ApplicationHooks] (TestNG-PoolService-3:) Launching browser
+2022-04-06 14:19:42  [ApplicationHooks] (TestNG-PoolService-1:) Entering the url.....
+2022-04-06 14:19:42  [ApplicationHooks] (TestNG-PoolService-2:) Entering the url.....
+2022-04-06 14:19:43  [ApplicationHooks] (TestNG-PoolService-4:) Entering the url.....
+2022-04-06 14:19:43  [ApplicationHooks] (TestNG-PoolService-0:) Entering the url.....
+2022-04-06 14:19:44  [ApplicationHooks] (TestNG-PoolService-3:) Entering the url.....
+2022-04-06 14:19:44  [ApplicationHooks] (TestNG-PoolService-5:) Entering the url.....
+2022-04-06 14:19:44  [ApplicationHooks] (TestNG-PoolService-6:) Entering the url.....
+2022-04-06 14:19:45  [dashboard_page] (TestNG-PoolService-1:) Successfully landed on the application
+2022-04-06 14:19:45  [dashboard_page] (TestNG-PoolService-2:) Successfully landed on the application
+2022-04-06 14:19:46  [dashboard_page] (TestNG-PoolService-4:) Successfully landed on the application
+2022-04-06 14:19:46  [dashboard_page] (TestNG-PoolService-0:) Successfully landed on the application
+2022-04-06 14:19:46  [dashboard_page] (TestNG-PoolService-0:) My Profile link exists on the dashboard
+2022-04-06 14:19:46  [dashboard_page] (TestNG-PoolService-0:) My Profile link is enabled on the dashboard
+2022-04-06 14:19:46  [dashboard_page] (TestNG-PoolService-0:) Testcase Validate_My_Profile passed
+2022-04-06 14:19:47  [dashboard_page] (TestNG-PoolService-3:) Successfully landed on the application
+2022-04-06 14:19:47  [dashboard_page] (TestNG-PoolService-5:) Successfully landed on the application
+2022-04-06 14:19:47  [dashboard_page] (TestNG-PoolService-5:) Testcase Validate Find your car , popular ,Just launched,upcoming static elements appear in home page is passed
+2022-04-06 14:19:47  [dashboard_page] (TestNG-PoolService-6:) Successfully landed on the application
+2022-04-06 14:19:48  [dashboard_page] (TestNG-PoolService-1:) Search bar is validated
+2022-04-06 14:19:48  [dashboard_page] (TestNG-PoolService-2:) Number of footer links aretrue
+2022-04-06 14:19:48  [dashboard_page] (TestNG-PoolService-2:) Testcase Validate Footer link validation is pass
+2022-04-06 14:19:49  [ApplicationHooks] (TestNG-PoolService-0:) closing the browser
+2022-04-06 14:19:50  [ApplicationHooks] (TestNG-PoolService-5:) closing the browser
+2022-04-06 14:19:51  [dashboard_page] (TestNG-PoolService-6:) Testcase Validate the on click of logo , user is taken to homepage is passed
+2022-04-06 14:19:51  [ApplicationHooks] (TestNG-PoolService-2:) closing the browser
+2022-04-06 14:19:52  [ApplicationHooks] (TestNG-PoolService-4:) closing the browser
+2022-04-06 14:19:53  [ApplicationHooks] (TestNG-PoolService-3:) closing the browser
+2022-04-06 14:19:54  [ApplicationHooks] (TestNG-PoolService-6:) closing the browser
+2022-04-06 14:20:18  [dashboard_page] (TestNG-PoolService-1:) Testcase Validate Search functionality is failed
+2022-04-06 14:20:18  [dashboard_page] (TestNG-PoolService-1:) org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='SEARCH'])[2]) (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 14:20:18  [ApplicationHooks] (TestNG-PoolService-1:) ScreenValidate_Search_functionality
+2022-04-06 14:20:22  [ApplicationHooks] (TestNG-PoolService-1:) closing the browser
+2022-04-06 14:24:47  [DriverFactory] (TestNG-PoolService-1:) Setting browser value
+2022-04-06 14:24:47  [DriverFactory] (TestNG-PoolService-0:) Setting browser value
+2022-04-06 14:24:47  [ApplicationHooks] (TestNG-PoolService-1:) Launching browser
+2022-04-06 14:24:47  [ApplicationHooks] (TestNG-PoolService-0:) Launching browser
+2022-04-06 14:24:48  [ApplicationHooks] (TestNG-PoolService-0:) Entering the url.....
+2022-04-06 14:24:48  [ApplicationHooks] (TestNG-PoolService-1:) Entering the url.....
+2022-04-06 14:24:51  [dashboard_page] (TestNG-PoolService-0:) Successfully landed on the application
+2022-04-06 14:24:51  [dashboard_page] (TestNG-PoolService-0:) Navigating to car listing page
+2022-04-06 14:24:52  [dashboard_page] (TestNG-PoolService-1:) Successfully landed on the application
+2022-04-06 14:24:55  [dashboard_page] (TestNG-PoolService-0:) Testcase Validate Car listing is pass
+2022-04-06 14:24:58  [ApplicationHooks] (TestNG-PoolService-0:) closing the browser
+2022-04-06 14:25:16  [ApplicationHooks] (TestNG-PoolService-1:) ScreenValidate_the_total_number_of_cars_in_View_All_page
+2022-04-06 14:25:20  [ApplicationHooks] (TestNG-PoolService-1:) closing the browser
+2022-04-06 14:25:29  [DriverFactory] (TestNG-PoolService-0:) Setting browser value
+2022-04-06 14:25:29  [DriverFactory] (TestNG-PoolService-3:) Setting browser value
+2022-04-06 14:25:29  [DriverFactory] (TestNG-PoolService-2:) Setting browser value
+2022-04-06 14:25:29  [DriverFactory] (TestNG-PoolService-6:) Setting browser value
+2022-04-06 14:25:29  [DriverFactory] (TestNG-PoolService-5:) Setting browser value
+2022-04-06 14:25:29  [DriverFactory] (TestNG-PoolService-4:) Setting browser value
+2022-04-06 14:25:29  [DriverFactory] (TestNG-PoolService-1:) Setting browser value
+2022-04-06 14:25:30  [ApplicationHooks] (TestNG-PoolService-5:) Launching browser
+2022-04-06 14:25:30  [ApplicationHooks] (TestNG-PoolService-3:) Launching browser
+2022-04-06 14:25:30  [ApplicationHooks] (TestNG-PoolService-0:) Launching browser
+2022-04-06 14:25:30  [ApplicationHooks] (TestNG-PoolService-4:) Launching browser
+2022-04-06 14:25:30  [ApplicationHooks] (TestNG-PoolService-6:) Launching browser
+2022-04-06 14:25:30  [ApplicationHooks] (TestNG-PoolService-2:) Launching browser
+2022-04-06 14:25:30  [ApplicationHooks] (TestNG-PoolService-1:) Launching browser
+2022-04-06 14:25:37  [ApplicationHooks] (TestNG-PoolService-3:) Entering the url.....
+2022-04-06 14:25:38  [ApplicationHooks] (TestNG-PoolService-2:) Entering the url.....
+2022-04-06 14:25:38  [ApplicationHooks] (TestNG-PoolService-4:) Entering the url.....
+2022-04-06 14:25:39  [ApplicationHooks] (TestNG-PoolService-5:) Entering the url.....
+2022-04-06 14:25:39  [ApplicationHooks] (TestNG-PoolService-6:) Entering the url.....
+2022-04-06 14:25:39  [ApplicationHooks] (TestNG-PoolService-0:) Entering the url.....
+2022-04-06 14:25:40  [ApplicationHooks] (TestNG-PoolService-1:) Entering the url.....
+2022-04-06 14:25:40  [dashboard_page] (TestNG-PoolService-3:) Successfully landed on the application
+2022-04-06 14:25:41  [dashboard_page] (TestNG-PoolService-2:) Successfully landed on the application
+2022-04-06 14:25:41  [dashboard_page] (TestNG-PoolService-4:) Successfully landed on the application
+2022-04-06 14:25:42  [dashboard_page] (TestNG-PoolService-5:) Successfully landed on the application
+2022-04-06 14:25:43  [dashboard_page] (TestNG-PoolService-6:) Successfully landed on the application
+2022-04-06 14:25:43  [dashboard_page] (TestNG-PoolService-1:) Successfully landed on the application
+2022-04-06 14:25:43  [dashboard_page] (TestNG-PoolService-0:) Successfully landed on the application
+2022-04-06 14:25:44  [dashboard_page] (TestNG-PoolService-0:) My Profile link exists on the dashboard
+2022-04-06 14:25:44  [dashboard_page] (TestNG-PoolService-5:) Testcase Validate Find your car , popular ,Just launched,upcoming static elements appear in home page is passed
+2022-04-06 14:25:44  [dashboard_page] (TestNG-PoolService-0:) My Profile link is enabled on the dashboard
+2022-04-06 14:25:44  [dashboard_page] (TestNG-PoolService-0:) Testcase Validate_My_Profile passed
+2022-04-06 14:25:47  [ApplicationHooks] (TestNG-PoolService-5:) closing the browser
+2022-04-06 14:25:47  [ApplicationHooks] (TestNG-PoolService-0:) closing the browser
+2022-04-06 14:25:50  [dashboard_page] (TestNG-PoolService-1:) Search bar is validated
+2022-04-06 14:25:54  [dashboard_page] (TestNG-PoolService-2:) Number of footer links aretrue
+2022-04-06 14:25:54  [dashboard_page] (TestNG-PoolService-2:) Testcase Validate Footer link validation is pass
+2022-04-06 14:25:56  [dashboard_page] (TestNG-PoolService-6:) Testcase Validate the on click of logo , user is taken to homepage is passed
+2022-04-06 14:25:57  [ApplicationHooks] (TestNG-PoolService-3:) closing the browser
+2022-04-06 14:25:57  [ApplicationHooks] (TestNG-PoolService-2:) closing the browser
+2022-04-06 14:25:58  [ApplicationHooks] (TestNG-PoolService-4:) closing the browser
+2022-04-06 14:25:59  [ApplicationHooks] (TestNG-PoolService-6:) closing the browser
+2022-04-06 14:26:20  [dashboard_page] (TestNG-PoolService-1:) Testcase Validate Search functionality is failed
+2022-04-06 14:26:20  [dashboard_page] (TestNG-PoolService-1:) org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='SEARCH'])[2]) (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 14:26:20  [ApplicationHooks] (TestNG-PoolService-1:) ScreenValidate_Search_functionality
+2022-04-06 14:26:24  [ApplicationHooks] (TestNG-PoolService-1:) closing the browser

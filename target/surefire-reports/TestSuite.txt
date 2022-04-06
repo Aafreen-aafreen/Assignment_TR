@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 110.411 s <<< FAILURE! - in TestSuite
+runScenario(Stepdefinition.TestRunner_2)  Time elapsed: 35.874 s  <<< FAILURE!
+java.lang.AssertionError
+
+runScenario(Stepdefinition.TestRunner_3)  Time elapsed: 60.87 s  <<< FAILURE!
+java.lang.AssertionError
+
