@@ -1,11 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="2" ignored="0" total="10" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="182681" started-at="2022-04-06T06:58:15Z" finished-at="2022-04-06T07:01:18Z">
+  <suite name="Surefire suite" duration-ms="77872" started-at="2022-04-06T07:51:06Z" finished-at="2022-04-06T07:52:24Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="182681" started-at="2022-04-06T06:58:15Z" finished-at="2022-04-06T07:01:18Z">
+    <test name="Surefire test" duration-ms="77872" started-at="2022-04-06T07:51:06Z" finished-at="2022-04-06T07:52:24Z">
+      <class name="Stepdefinition.TestRunner_2">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="setUpClass" is-config="true" duration-ms="1164" started-at="2022-04-06T07:51:06Z" finished-at="2022-04-06T07:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="runScenario" duration-ms="37549" started-at="2022-04-06T07:51:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-06T07:51:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Cars Listing Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="runScenario" duration-ms="58195" started-at="2022-04-06T07:51:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-06T07:52:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the total number of cars in View All page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at Pages.CarList.countTheTotalCars(CarList.java:111)
+at Stepdefinition.dashboard_page.count_the_total_numbers_of_cars_in_each_section(dashboard_page.java:363)
+at ✽.count the total numbers of cars in each section(file:///Users/firdi/Library/CloudStorage/OneDrive-Deloitte(O365D)/TR_Training/src/test/java/Feature/Carlisting.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="runScenario" duration-ms="32329" started-at="2022-04-06T07:51:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-06T07:51:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate MY Profile Details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="runScenario" duration-ms="67384" started-at="2022-04-06T07:51:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-06T07:52:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Search functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at Stepdefinition.dashboard_page.validateSearchBarSearchButtonArePresent(dashboard_page.java:295)
+at ✽.validate search bar & search button are present(file:///Users/firdi/Library/CloudStorage/OneDrive-Deloitte(O365D)/TR_Training/src/test/java/Feature/Dashboard.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="runScenario" duration-ms="40472" started-at="2022-04-06T07:51:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-06T07:51:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate links in the Footer across website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="runScenario" duration-ms="40856" started-at="2022-04-06T07:51:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-06T07:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the logo is present across website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="runScenario" duration-ms="40884" started-at="2022-04-06T07:51:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-06T07:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate New Car & Used car exists across all webpages"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="runScenario" duration-ms="34150" started-at="2022-04-06T07:51:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-06T07:51:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Find your car , popular ,Just launched,upcoming static elements appear in home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="runScenario" duration-ms="41066" started-at="2022-04-06T07:51:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-06T07:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the on click of logo , user is taken to homepage."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="runScenario" duration-ms="45434" started-at="2022-04-06T07:51:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-06T07:51:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Book the Car"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Stepdefinition.TestRunner_2@675d3402]" name="tearDownClass" is-config="true" duration-ms="9251" started-at="2022-04-06T07:52:15Z" finished-at="2022-04-06T07:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Stepdefinition.TestRunner_2 -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
