@@ -123,14 +123,15 @@
                 <version>${maven.surefire.version}</version>
                 <configuration>
                     <includes>
+                        <include>**/Parallel.java</include>
                         <include>**/TestRunner_2.java</include>
-                        <include>**/TestRunner_3.java</include>
                     </includes>
-                    <parallel>all</parallel>
-                   <threadCount>5</threadCount>
-                    <useUnlimitedThreads>true</useUnlimitedThreads>
+                    <parallel>methods</parallel>
+                   <threadCount>1</threadCount>
+                    <useUnlimitedThreads>false</useUnlimitedThreads>
                 </configuration>
             </plugin>
+
            <!-- <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>
@@ -173,7 +174,6 @@
                         </execution>
                     </executions>
                 </plugin> -->
-
 
         </plugins>
     </build>

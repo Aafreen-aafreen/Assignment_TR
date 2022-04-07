@@ -11,7 +11,9 @@ import org.testng.annotations.DataProvider;
         },
         monochrome = true,
         glue = { "Stepdefinition" },
-        features = { "src/test/java/Feature" }
+        features = { "src/test/java/Feature" },
+        tags = "@Test1"
+
 )
 
 public class Parallel extends AbstractTestNGCucumberTests {

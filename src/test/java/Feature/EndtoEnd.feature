@@ -3,6 +3,7 @@ Feature:Validate Dashboard Details
   Background:Launch the React App
     Given launching application & validate the title of the page
 
+  @Test1
   Scenario:Book the Car
     And Click the Car  you want to book
     Then Validate the car details of in car details page

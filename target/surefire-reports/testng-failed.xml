@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Surefire suite]">
-  <test thread-count="5" verbose="0" name="Surefire test(failed)">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]" parallel="methods">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)" parallel="methods">
     <classes>
-      <class name="Stepdefinition.TestRunner_3">
+      <class name="Stepdefinition.Parallel">
         <methods>
           <include name="runScenario" invocation-numbers="1"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>
-      </class> <!-- Stepdefinition.TestRunner_3 -->
+      </class> <!-- Stepdefinition.Parallel -->
       <class name="Stepdefinition.TestRunner_2">
         <methods>
           <include name="runScenario" invocation-numbers="1"/>
