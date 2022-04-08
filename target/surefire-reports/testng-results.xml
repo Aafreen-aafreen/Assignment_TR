@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="2" ignored="0" total="10" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="113041" started-at="2022-04-07T06:55:58Z" finished-at="2022-04-07T06:57:51Z">
+  <suite name="Surefire suite" duration-ms="142473" started-at="2022-04-08T05:51:47Z" finished-at="2022-04-08T05:54:09Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.Parallel@1593948d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@482f8f11]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.Parallel@482f8f11]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@51565ec2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="113041" started-at="2022-04-07T06:55:58Z" finished-at="2022-04-07T06:57:51Z">
+    <test name="Surefire test" duration-ms="142473" started-at="2022-04-08T05:51:47Z" finished-at="2022-04-08T05:54:09Z">
       <class name="Stepdefinition.Parallel">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Stepdefinition.Parallel@1593948d]" name="setUpClass" is-config="true" duration-ms="996" started-at="2022-04-07T06:55:58Z" finished-at="2022-04-07T06:55:59Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Stepdefinition.Parallel@482f8f11]" name="setUpClass" is-config="true" duration-ms="1857" started-at="2022-04-08T05:51:47Z" finished-at="2022-04-08T05:51:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.Parallel@1593948d]" name="runScenario" duration-ms="15171" started-at="2022-04-07T06:55:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-07T06:56:14Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.Parallel@482f8f11]" name="runScenario" duration-ms="23147" started-at="2022-04-08T05:51:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-08T05:52:12Z">
           <params>
             <param index="0">
               <value>
@@ -31,23 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.Parallel@1593948d]" name="runScenario" duration-ms="22100" started-at="2022-04-07T06:55:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-07T06:56:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Book the Car"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Validate Dashboard Details]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.Parallel@1593948d]" name="runScenario" duration-ms="36788" started-at="2022-04-07T06:55:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-07T06:56:35Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.Parallel@482f8f11]" name="runScenario" duration-ms="44618" started-at="2022-04-08T05:51:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-08T05:52:33Z">
           <params>
             <param index="0">
               <value>
@@ -72,17 +56,33 @@ at ✽.count the total numbers of cars in each section(file:///Users/firdi/Libra
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Stepdefinition.Parallel@1593948d]" name="tearDownClass" is-config="true" duration-ms="10117" started-at="2022-04-07T06:56:35Z" finished-at="2022-04-07T06:56:45Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.Parallel@482f8f11]" name="runScenario" duration-ms="30049" started-at="2022-04-08T05:51:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-08T05:52:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Book the Car"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Stepdefinition.Parallel@482f8f11]" name="tearDownClass" is-config="true" duration-ms="16477" started-at="2022-04-08T05:52:33Z" finished-at="2022-04-08T05:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Stepdefinition.Parallel -->
       <class name="Stepdefinition.TestRunner_2">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Stepdefinition.TestRunner_2@482f8f11]" name="setUpClass" is-config="true" duration-ms="18" started-at="2022-04-07T06:56:45Z" finished-at="2022-04-07T06:56:45Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Stepdefinition.TestRunner_2@51565ec2]" name="setUpClass" is-config="true" duration-ms="32" started-at="2022-04-08T05:52:50Z" finished-at="2022-04-08T05:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@482f8f11]" name="runScenario" duration-ms="18962" started-at="2022-04-07T06:56:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-07T06:57:04Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@51565ec2]" name="runScenario" duration-ms="31908" started-at="2022-04-08T05:52:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-08T05:53:22Z">
           <params>
             <param index="0">
               <value>
@@ -98,23 +98,7 @@ at ✽.count the total numbers of cars in each section(file:///Users/firdi/Libra
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@482f8f11]" name="runScenario" duration-ms="21131" started-at="2022-04-07T06:56:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-07T06:57:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the logo is present across website"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Validate Dashboard Details]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@482f8f11]" name="runScenario" duration-ms="50457" started-at="2022-04-07T06:56:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-07T06:57:36Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@51565ec2]" name="runScenario" duration-ms="65459" started-at="2022-04-08T05:52:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-08T05:53:55Z">
           <params>
             <param index="0">
               <value>
@@ -138,39 +122,7 @@ at ✽.validate search bar & search button are present(file:///Users/firdi/Libra
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@482f8f11]" name="runScenario" duration-ms="18410" started-at="2022-04-07T06:56:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-07T06:57:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate Find your car , popular ,Just launched,upcoming static elements appear in home page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Validate Dashboard Details]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@482f8f11]" name="runScenario" duration-ms="21537" started-at="2022-04-07T06:56:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-07T06:57:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the on click of logo , user is taken to homepage."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Validate Dashboard Details]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@482f8f11]" name="runScenario" duration-ms="20579" started-at="2022-04-07T06:56:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-07T06:57:06Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@51565ec2]" name="runScenario" duration-ms="44720" started-at="2022-04-08T05:52:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-08T05:53:34Z">
           <params>
             <param index="0">
               <value>
@@ -186,7 +138,23 @@ at ✽.validate search bar & search button are present(file:///Users/firdi/Libra
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@482f8f11]" name="runScenario" duration-ms="21090" started-at="2022-04-07T06:56:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-07T06:57:07Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@51565ec2]" name="runScenario" duration-ms="34286" started-at="2022-04-08T05:52:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-08T05:53:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the logo is present across website"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@51565ec2]" name="runScenario" duration-ms="30969" started-at="2022-04-08T05:52:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-08T05:53:21Z">
           <params>
             <param index="0">
               <value>
@@ -202,7 +170,39 @@ at ✽.validate search bar & search button are present(file:///Users/firdi/Libra
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Stepdefinition.TestRunner_2@482f8f11]" name="tearDownClass" is-config="true" duration-ms="14626" started-at="2022-04-07T06:57:36Z" finished-at="2022-04-07T06:57:51Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@51565ec2]" name="runScenario" duration-ms="26190" started-at="2022-04-08T05:52:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-08T05:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Find your car , popular ,Just launched,upcoming static elements appear in home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Stepdefinition.TestRunner_2@51565ec2]" name="runScenario" duration-ms="44292" started-at="2022-04-08T05:52:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-08T05:53:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the on click of logo , user is taken to homepage."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate Dashboard Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Stepdefinition.TestRunner_2@51565ec2]" name="tearDownClass" is-config="true" duration-ms="13934" started-at="2022-04-08T05:53:55Z" finished-at="2022-04-08T05:54:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

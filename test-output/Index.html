@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Apr 7, 2022 12:25:58 PM</span></a>
+<a href="#"><span class="badge badge-primary">Apr 8, 2022 11:21:47 AM</span></a>
 </li>
 </ul>
 </div>
@@ -71,13 +71,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Apr 7, 2022 12:25:58 PM</h3>
+<h3>Apr 8, 2022 11:21:47 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Apr 7, 2022 12:27:36 PM</h3>
+<h3>Apr 8, 2022 11:23:55 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -167,7 +167,7 @@
 </div></div>
 <script>
 var timeline = {
-"Validate Dashboard Details":97.143
+"Validate Dashboard Details":126.085
 };
 </script>
 <div class="row">
@@ -268,7 +268,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">Validate Dashboard Details</p>
             <p class="text-sm">
-              <span>12:25:59 PM</span> / <span>00:01:37:143</span>
+              <span>11:21:49 AM</span> / <span>00:02:06:085</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -277,9 +277,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Validate Dashboard Details</h5>
-<span class='badge badge-success'>04.07.2022 12:25:59 PM</span>
-<span class='badge badge-danger'>04.07.2022 12:27:36 PM</span>
-<span class='badge badge-default'>00:01:37:143</span>
+<span class='badge badge-success'>04.08.2022 11:21:49 AM</span>
+<span class='badge badge-danger'>04.08.2022 11:23:55 AM</span>
+<span class='badge badge-default'>00:02:06:085</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -291,7 +291,53 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Book the Car</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Validate the total number of cars in View All page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheTitleOfThePage()">
+                <span>Given launching application & validate the title of the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinition.dashboard_page.the_users_clicks_on_view_all_page()">
+                <span>When the users clicks on View All page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="Stepdefinition.dashboard_page.count_the_total_numbers_of_cars_in_each_section()">
+                <span>Then count the total numbers of cars in each section</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError
+	at Pages.CarList.countTheTotalCars(CarList.java:111)
+	at Stepdefinition.dashboard_page.count_the_total_numbers_of_cars_in_each_section(dashboard_page.java:363)
+	at ?.count the total numbers of cars in each section(file:///Users/firdi/Library/CloudStorage/OneDrive-Deloitte(O365D)/TR_Training/src/test/java/Feature/Carlisting.feature:12)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>Stepdefinition.ApplicationHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Validate_the_total_number_of_cars_in_View_All_page
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='./embedded1.png' src="./embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Book the Car</div>
       </div>
     </div>
         <div class="collapse">
@@ -357,52 +403,6 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Validate the total number of cars in View All page</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
-      </div>
-    </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheTitleOfThePage()">
-                <span>Given launching application & validate the title of the page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Stepdefinition.dashboard_page.the_users_clicks_on_view_all_page()">
-                <span>When the users clicks on View All page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="Stepdefinition.dashboard_page.count_the_total_numbers_of_cars_in_each_section()">
-                <span>Then count the total numbers of cars in each section</span>
-      <div>
-        <textarea disabled class="code-block">java.lang.AssertionError
-	at Pages.CarList.countTheTotalCars(CarList.java:111)
-	at Stepdefinition.dashboard_page.count_the_total_numbers_of_cars_in_each_section(dashboard_page.java:363)
-	at ?.count the total numbers of cars in each section(file:///Users/firdi/Library/CloudStorage/OneDrive-Deloitte(O365D)/TR_Training/src/test/java/Feature/Carlisting.feature:12)
-</textarea>
-      
-      </div>
-              </div>
-              <div class="step pass-bg" title="AFTER">
-                <span>Stepdefinition.ApplicationHooks.tearDown(io.cucumber.java.Scenario)</span>
-      <div>Validate_the_total_number_of_cars_in_View_All_page
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='../embedded1.png' src="../embedded1.png">
-    
-    </div></div>
-</div>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
         <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>Validate Cars Listing Page</div>
       </div>
     </div>
@@ -429,7 +429,49 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="34"><span class="badge log pass-bg mr-2">Pass</span>Validate MY Profile Details</div>
+        <div class="node" id="34"><span class="badge log pass-bg mr-2">Pass</span>Validate that the logo is present across website</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheTitleOfThePage()">
+                <span>Given launching application & validate the title of the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validatingIfLogoIsPresentAcrossTheWebsite()">
+                <span>And validating if logo is present across the website</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="36"><span class="badge log pass-bg mr-2">Pass</span>Validate the on click of logo , user is taken to homepage.</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheTitleOfThePage()">
+                <span>Given launching application & validate the title of the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheOnClickOfLogoUserIsTakenToHomepage()">
+                <span>And Validate the on click of logo , user is taken to homepage</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="38"><span class="badge log pass-bg mr-2">Pass</span>Validate MY Profile Details</div>
       </div>
     </div>
         <div class="collapse">
@@ -455,112 +497,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="37"><span class="badge log pass-bg mr-2">Pass</span>Validate that the logo is present across website</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheTitleOfThePage()">
-                <span>Given launching application & validate the title of the page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validatingIfLogoIsPresentAcrossTheWebsite()">
-                <span>And validating if logo is present across the website</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="39"><span class="badge log pass-bg mr-2">Pass</span>Validate the on click of logo , user is taken to homepage.</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheTitleOfThePage()">
-                <span>Given launching application & validate the title of the page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheOnClickOfLogoUserIsTakenToHomepage()">
-                <span>And Validate the on click of logo , user is taken to homepage</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="43"><span class="badge log pass-bg mr-2">Pass</span>Validate links in the Footer across website</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheTitleOfThePage()">
-                <span>Given launching application & validate the title of the page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateLinksInTheFooter()">
-                <span>Then validate links in the Footer</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="46"><span class="badge log pass-bg mr-2">Pass</span>Validate New Car & Used car exists across all webpages</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheTitleOfThePage()">
-                <span>Given launching application & validate the title of the page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateNewCarUsedCarExistsacrossallwebpages()">
-                <span>And Validate New Car & Used car exists across all webpages</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="48"><span class="badge log pass-bg mr-2">Pass</span>Validate Find your car , popular ,Just launched,upcoming static elements appear in home page</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheTitleOfThePage()">
-                <span>Given launching application & validate the title of the page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateFindYourCarPopularJustLaunchedUpcomingStaticElementsAppearInHomePage()">
-                <span>And Validate Find your car , popular ,Just launched,upcoming static elements appear in home page</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="52"><span class="badge log fail-bg mr-2">Fail</span>Validate Search functionality</div>
+        <div class="node" id="39"><span class="badge log fail-bg mr-2">Fail</span>Validate Search functionality</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -592,10 +529,73 @@ eventsCount: 5,
                 <span>Stepdefinition.ApplicationHooks.tearDown(io.cucumber.java.Scenario)</span>
       <div>Validate_Search_functionality
           <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='../embedded2.png' src="../embedded2.png">
+<img data-featherlight='./embedded2.png' src="./embedded2.png">
     
     </div></div>
 </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="42"><span class="badge log pass-bg mr-2">Pass</span>Validate links in the Footer across website</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheTitleOfThePage()">
+                <span>Given launching application & validate the title of the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateLinksInTheFooter()">
+                <span>Then validate links in the Footer</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="43"><span class="badge log pass-bg mr-2">Pass</span>Validate Find your car , popular ,Just launched,upcoming static elements appear in home page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheTitleOfThePage()">
+                <span>Given launching application & validate the title of the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateFindYourCarPopularJustLaunchedUpcomingStaticElementsAppearInHomePage()">
+                <span>And Validate Find your car , popular ,Just launched,upcoming static elements appear in home page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="51"><span class="badge log pass-bg mr-2">Pass</span>Validate New Car & Used car exists across all webpages</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateTheTitleOfThePage()">
+                <span>Given launching application & validate the title of the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="Stepdefinition.dashboard_page.validateNewCarUsedCarExistsacrossallwebpages()">
+                <span>And Validate New Car & Used car exists across all webpages</span>
       <div>
       </div>
               </div>
@@ -646,21 +646,11 @@ eventsCount: 5,
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>12:25:59 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='2'>Book the Car</a>
-<div class="">
-<span class="badge badge-default">Validate Dashboard Details.Book the Car</span>
-</div>
-</td>
-</tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>12:25:59 PM</td>
+<td>11:21:49 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='3'>Validate the total number of cars in View All page</a>
+<a href="#" class="linked" test-id='1' id='2'>Validate the total number of cars in View All page</a>
 <div class="">
 <span class="badge badge-default">Validate Dashboard Details.Validate the total number of cars in View All page</span>
 </div>
@@ -668,7 +658,17 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>12:25:59 PM</td>
+<td>11:21:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Book the Car</a>
+<div class="">
+<span class="badge badge-default">Validate Dashboard Details.Book the Car</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:21:49 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='4'>Validate Cars Listing Page</a>
 <div class="">
@@ -720,7 +720,7 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>12:26:13 PM</td>
+<td>11:22:11 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='22'>Then count the total numbers of cars in each section</a>
 <div class="">
@@ -730,9 +730,9 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>12:27:01 PM</td>
+<td>11:23:20 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='74'>And validate search bar & search button are present</a>
+<a href="#" class="linked" test-id='1' id='72'>And validate search bar & search button are present</a>
 <div class="">
 <span class="badge badge-default">Validate Dashboard Details.Validate Search functionality.And validate search bar & search button are present</span>
 </div>
